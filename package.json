@@ -7,6 +7,7 @@
   "type": "module",
   "dependencies": {
     "commander": "^12.1.0",
+    "isomorphic-git": "^1.27.2",
     "v8-compile-cache": "^2.4.0"
   },
   "bin": {
