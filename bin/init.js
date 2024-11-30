@@ -19,7 +19,7 @@ const init = async (targetDir) => {
       singleBranch: true,
       depth: 1
     });
-    console.log('Repository cloned successfully!');
+    console.log(`Repository cloned successfully to ${targetDir}`);
   } catch (error) {
     console.error('Failed to clone repository:', error.message);
     process.exit(1);
